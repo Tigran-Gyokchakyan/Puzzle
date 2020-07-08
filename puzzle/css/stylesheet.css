@@ -1,0 +1,30 @@
+body {
+    margin: 0px 0px 0px 0px; /* the extra 1px allows the iOS inner/outer check to work */
+    background: #000000;
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'Assistant-Bold';
+    src: url('../fonts/Assistant-Bold.eot');
+    src: local('☺'), url('../fonts/Assistant-Bold.woff') format('woff'), url('../fonts/Assistant-Bold.ttf') format('truetype'), url('../fonts/Assistant-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Assistant-Regular';
+    src: url('../fonts/Assistant-Regular.eot');
+    src: local('☺'), url('../fonts/Assistant-Regular.woff') format('woff'), url('../fonts/Assistant-Regular.ttf') format('truetype'), url('../fonts/Assistant-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assistant-SemiBold';
+    src: url('../fonts/Assistant-SemiBold.eot');
+    src: local('☺'), url('../fonts/Assistant-SemiBold.woff') format('woff'), url('../fonts/Assistant-SemiBold.ttf') format('truetype'), url('../fonts/Assistant-SemiBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>      
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118454690-1"></script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-3181213-1');
+    </script>
+
+    <script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+						(i[r].q = i[r].q || []).push(arguments)
+					}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-3181213-1', 'auto');
+		ga('send', 'pageview');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <title>Puzzle Game</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Phaser App">
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+    <link rel="stylesheet" href="puzzle/css/stylesheet.css" type="text/css" />
+    <script src="puzzle/external/facebook.js"></script>
+    <script src="puzzle/external/localization.js"></script>
+	<script src="puzzle/data/texts.js"></script>
+	<script type="text/javascript" src="puzzle/external/phaser.min.js"></script>
+    <script>
+        var template_name = "puzzle/";
+        var game_orientation = "auto";
+        var SpecialDefinitions = {
+            path_images: template_name + "/images/",
+            path_sounds: template_name + "/sounds/",
+            path_sheets: template_name + "/sheets/",
+            path_fonts: template_name + "/fonts/",
+            path_external: template_name + "/external/",
+            path_data: template_name + "/data/",              
+        }
+    </script>
+</head>
+<body>
+<div id="content"></div>
+<div id="orientation"></div>
+<script type="text/javascript" src="./puzzle/js/vendor.71a44d902feaaaefed08.js"></script><script type="text/javascript" src="./puzzle/js/app.71a44d902feaaaefed08.js"></script></body>
+
+</html>
